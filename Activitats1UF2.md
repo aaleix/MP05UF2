@@ -50,31 +50,31 @@ public class proves {
   - **Resultat proves camins:** CAMI1= Roba=res
                                        Temperatura<0 true 
                                        Roba=roba d'esquiar
-                                       Return roba <br>
+                                       Return roba<br>
                                 CAMI2= Roba=res
                                        Temperatura<0 false
                                        Temperatura<10 true
                                        Roba=roba de muntanya
-                                       Return roba <br>
+                                       Return roba<br>
                                 CAMI3= Roba=res
                                        Temperatura<0 false
                                        Temperatura<10 false
                                        Temperatura<20 true
                                        Roba=roba d'hivern
-                                       Return roba
+                                       Return roba<br>
                                 CAMI4= Roba=res
                                        Temperatura<0 false
                                        Temperatura<10 false
                                        Temperatura<20 false
                                        Temperatura<30 true
                                        Roba=roba d'estiu
-                                       Return roba
+                                       Return roba<br>
                                 CAMI5= Roba=res
                                        Temperatura<0 false
                                        Temperatura<10 false
                                        Temperatura<20 false
                                        Temperatura<30 false
-                                       Return roba
+                                       Return roba<br>
 
 4. Dibuixa el diagrama de flux representat per aquest codi, calcula la seva CC i crea una prova per a cada camí posible:
 
@@ -95,19 +95,20 @@ public class proves {
   - **Resultat proves camins:** CAMI1= Llums=false
                                        Hora <= 8 true
                                        Llums=true
-                                       Return llums
+                                       Return llums<br>
                                 CAMI2= Llums=false
                                        Hora <= 8 false
                                        Hora >= 20 true
                                        Llums=true
-                                       Return llums         
+                                       Return llums<br>
                                 CAMI3= Llums=false
                                        Hora <= 8 false
                                        Hora >= 20 false
-                                       Return llums
-                              
+                                       Return llums<br>
 
 5. Investiga sobre les proves de caixa negra:
 
   - Què són?
+És el mètode en el qual un element es estudiat des del punt de vista de les entrades que rep i les sortides que produeix, sense tenir en compte el seu funcionament intern.
   - Quina diferència principal tenen sobre les de caixa blanca?
+Les proves de caixa blanca estan dirigides a les funcions internes mentre que les de caixa negra sol es fixen en el l'exterior, l'entrada i la sortida.
