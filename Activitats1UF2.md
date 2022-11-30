@@ -18,7 +18,7 @@ Per dibuixar els diagrames de flux podeu fer servir [draw.io](https://draw.io) o
   - **Diagrama:** ![image](https://user-images.githubusercontent.com/113586080/204739252-91dc8062-4e70-462e-bdd1-fcdc1d295bc3.png)
 
 
-  - **Resultat CC:** 7 camins - 7 nodes + 2 = 2
+  - **Resultat CC:** 2 + 1 = 3
 
 3. Dibuixa el diagrama de flux representat per aquest codi i després calcula la seva CC:
 
