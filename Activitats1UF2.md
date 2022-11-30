@@ -47,6 +47,8 @@ public class proves {
 
   - **Resultat CC:** 4 + 1 = 5
 
+  - **Resultat proves camins:** 
+
 4. Dibuixa el diagrama de flux representat per aquest codi, calcula la seva CC i crea una prova per a cada camí posible:
 
 ```
@@ -58,10 +60,11 @@ public class proves {
         return llums;
     }
 ```
-  - **Diagrama:** ![image](https://user-images.githubusercontent.com/113586080/204748330-d0643574-6099-49a2-b7b0-9101e6217cb8.png)
+  - **Diagrama:** ![image](https://user-images.githubusercontent.com/113586080/204748960-e27946fe-3493-433a-a370-d5deab936b6f.png)
 
   - **Resultat CC:** 2 + 1 = 3
-  - **Resultat proves camins:**
+  
+  - **Resultat proves camins:** 
 
 5. Investiga sobre les proves de caixa negra:
 
