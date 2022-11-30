@@ -50,12 +50,12 @@ public class proves {
   - **Resultat proves camins:** CAMI1= Roba=res
                                        Temperatura<0 true 
                                        Roba=roba d'esquiar
-                                       Return roba
+                                       Return roba <br>
                                 CAMI2= Roba=res
                                        Temperatura<0 false
                                        Temperatura<10 true
                                        Roba=roba de muntanya
-                                       Return roba
+                                       Return roba <br>
                                 CAMI3= Roba=res
                                        Temperatura<0 false
                                        Temperatura<10 false
