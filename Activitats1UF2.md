@@ -47,7 +47,34 @@ public class proves {
 
   - **Resultat CC:** 4 + 1 = 5
 
-  - **Resultat proves camins:** 
+  - **Resultat proves camins:** CAMI1= Roba=res
+                                       Temperatura<0 true 
+                                       Roba=roba d'esquiar
+                                       Return roba
+                                CAMI2= Roba=res
+                                       Temperatura<0 false
+                                       Temperatura<10 true
+                                       Roba=roba de muntanya
+                                       Return roba
+                                CAMI3= Roba=res
+                                       Temperatura<0 false
+                                       Temperatura<10 false
+                                       Temperatura<20 true
+                                       Roba=roba d'hivern
+                                       Return roba
+                                CAMI4= Roba=res
+                                       Temperatura<0 false
+                                       Temperatura<10 false
+                                       Temperatura<20 false
+                                       Temperatura<30 true
+                                       Roba=roba d'estiu
+                                       Return roba
+                                CAMI5= Roba=res
+                                       Temperatura<0 false
+                                       Temperatura<10 false
+                                       Temperatura<20 false
+                                       Temperatura<30 false
+                                       Return roba
 
 4. Dibuixa el diagrama de flux representat per aquest codi, calcula la seva CC i crea una prova per a cada camí posible:
 
