@@ -64,7 +64,15 @@ public class proves {
 
   - **Resultat CC:** 2 + 1 = 3
   
-  - **Resultat proves camins:** 
+  - **Resultat proves camins:** CAMI1= Llums=false
+                                       Hora <= 8 || Hora >=20 = true
+                                       Llums=true
+                                       Return llums
+                                CAMI2= Llums=false
+                                       Hora <= 8 || Hora >=20 = false
+                                       Return llums
+                                       
+                              
 
 5. Investiga sobre les proves de caixa negra:
 
