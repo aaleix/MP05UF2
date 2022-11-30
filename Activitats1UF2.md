@@ -60,7 +60,8 @@ public class proves {
         return llums;
     }
 ```
-  - **Diagrama:** ![image](https://user-images.githubusercontent.com/113586080/204748960-e27946fe-3493-433a-a370-d5deab936b6f.png)
+  - **Diagrama:** ![image](https://user-images.githubusercontent.com/113586080/204750603-0ee70d87-eb34-408f-9342-aa48fd333a7f.png)
+
 
   - **Resultat CC:** 2 + 1 = 3
   
@@ -71,7 +72,8 @@ public class proves {
                                 CAMI2= Llums=false
                                        Hora <= 8 || Hora >=20 = false
                                        Return llums
-                                       
+                                CAMI3= Llums=false
+                                       Hora <= 8 || Hora >=20 = 
                               
 
 5. Investiga sobre les proves de caixa negra:
