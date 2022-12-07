@@ -36,7 +36,11 @@ public class PizzeriaPepe {
 
 - Fer la taula amb l'anàlisis de valors límit i casos vàlids i no vàlids.
 
-
+| Classes | Pizzes | Sortida |
+| ------- | ------ | ------- |
+| 1 | 7 | true |
+| 2 | 11 | false |
+| 3 | dos | error |
 
 ### Transports Jean Claude:
 
