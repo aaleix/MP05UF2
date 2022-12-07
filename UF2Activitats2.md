@@ -34,13 +34,15 @@ public class PizzeriaPepe {
 | ---------- | ---------- | --------------- | ------------------ |
 | Número Pizzes | -És un número -0-10 | 1.Número Pizzes <=10(true) | 2.Número Pizzes > 10(false) 3.No és un número(error) |
 
-- Fer la taula amb l'anàlisis de valors límit i casos vàlids i no vàlids.
-
 | Classes | Pizzes | Sortida |
 | ------- | ------ | ------- |
 | 1 | 7 | true |
 | 2 | 11 | false |
 | 3 | dos | error |
+
+- Fer la taula amb l'anàlisis de valors límit i casos vàlids i no vàlids.
+
+
 
 ### Transports Jean Claude:
 
