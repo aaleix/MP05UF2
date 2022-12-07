@@ -13,6 +13,21 @@ El programa retorna true si la comanda es pot portar i false en cas contrari.
 Es demana:
 
 - Fer el codi font del programa.
+import java.util.Scanner;
+
+public class PizzeriaPepe {
+
+    public static void main(String[] args) {
+        Scanner ent = new Scanner(System.in);
+        int numPizzes;
+
+        System.out.println("Quantes pizzes vols portar?");
+        numPizzes= ent.nextInt();
+
+        if (numPizzes<=10 && numPizzes>0) System.out.println("true");
+        else System.out.println("false");
+    }
+}
 - Fer la taula amb les particions equivalents i casos vàlids i no vàlids.
 | Paràmetres | Condicions | Classes vàlides | Classes no vàlides |
 | Número Pizzes | És un número | -Número Pizzes <= 10 -Número Pizzes > 0 | -Número Pizzes > 10 -Número Pizzes < 0 | 
