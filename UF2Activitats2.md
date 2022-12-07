@@ -46,6 +46,12 @@ public class PizzeriaPepe {
 | ---------- | ---------- | --------------- | ------------------ |
 | Número Pizzes | -És un número -0-10 | 4.Número Pizzes = 10 5.Número Pizzes = 9 | 6.Número Pizzes = 11 |
 
+| Classes | Pizzes | Sortida |
+| ------- | ------ | ------- |
+| 4 | 10 | true |
+| 5 | 9 | true |
+| 6 | 11 | false |
+
 ### Transports Jean Claude:
 
 Un programa gestiona si una càrrega es pot portar amb una furgoneta.
