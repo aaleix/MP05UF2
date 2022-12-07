@@ -42,7 +42,9 @@ public class PizzeriaPepe {
 
 - Fer la taula amb l'anàlisis de valors límit i casos vàlids i no vàlids.
 
-
+| Paràmetres | Condicions | Classes vàlides | Classes no vàlides |
+| ---------- | ---------- | --------------- | ------------------ |
+| Número Pizzes | -És un número -0-10 | 4.Número Pizzes = 10 5.Número Pizzes = 9 | 6.Número Pizzes = 11 |
 
 ### Transports Jean Claude:
 
