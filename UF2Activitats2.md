@@ -15,18 +15,14 @@ Es demana:
 - Fer el codi font del programa.
 import java.util.Scanner;
 
-public class PizzeriaPepe {
-
-    public static void main(String[] args) {
-        Scanner ent = new Scanner(System.in);
-        int numPizzes;
-
-        System.out.println("Quantes pizzes vols portar?");
-        numPizzes= ent.nextInt();
-
-        if (numPizzes<=10 && numPizzes>0) System.out.println("true");
-        else System.out.println("false");
-    }
+public class pizzeriaPepe {
+public static boolean potCarregar(int pizzes){
+        boolean pot = false;
+        if(pizzes <=10 && pizzes >= 1){
+            pot = true;
+        }
+        return pot;
+   
 }
 - Fer la taula amb les particions equivalents i casos vàlids i no vàlids.
 
@@ -65,7 +61,31 @@ Si una càrrega no es pot portar el programa retorna -1, en cas contrari retorna
 Es demana:
 
 - Fer el codi font del programa.
+
+public class transportsJeanClaude {
+    public static boolean potCarregar(int pesCarrega){
+        boolean pot = false;
+        if(pesCarrega <=750 && pesCarrega >=500){
+            pot = true;
+        }
+        return pot;
+    }
+}
+
 - Fer la taula amb les particions equivalents i casos vàlids i no vàlids.
+
+| Paràmetres | Condicions | Classes vàlides | Classes no vàlides |
+| ---------- | ---------- | --------------- | ------------------ |
+| pesCàrrega | -És un número -Entre 500 i 750 | 1.pesCàrrega>=500 2.pesCàrrega<=750 | 3.pesCàrrega<500 4.pesCàrrega>750 5.No és un número |
+
+| Classes | pesCàrrega | Sortida |
+| ------- | ------ | ------- |
+| 1 | 550 | true |
+| 2 | 600 | true |
+| 3 | 300 | false |
+| 4 | 900 | false |
+| 5 | Cinc | error |
+
 - Fer la taula amb l'anàlisis de valors límit i casos vàlids i no vàlids.
 
 ### Control de temperatura:
