@@ -11,3 +11,5 @@ public class Factorial {
         return numero;
         }
     }
+
+![image](https://user-images.githubusercontent.com/113586080/217348027-6b4288de-e5f4-4851-bd7a-06e4533ee0fe.png)
